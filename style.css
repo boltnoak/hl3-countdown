@@ -22,7 +22,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     background: url(./img/halflife_alyx_12.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -35,14 +35,13 @@ body {
 }
 
 .hlx_countdown_box {
-    padding: 40px;
+    padding: 4%;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
-    border-radius: 20px;
-    border-bottom: 90px;
+    border-radius: 10px;
 }
 
 .hlx_countdown h2 {
@@ -61,7 +60,7 @@ body {
 .hlx_countdown h1 {
     font-size: 4rem;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
 
 .timebox {
@@ -75,6 +74,8 @@ body {
 }
 
 .time h2 {
-    font-size: 5rem;
+    display: flex;
+    justify-self: center;
+    font-size: 500%;
     font-weight: 100;
 }
