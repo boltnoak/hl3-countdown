@@ -1,2 +1,2 @@
-# hl3-countdown
+# Half-Life 3 Countdown
 
