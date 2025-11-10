@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'HL2';
+    src: url(/fonts/halflife2.ttf);
+}
+@font-face {
+    font-family: 'HL2-DIN';
+    src: url(/fonts/raju.otf);
+}
+
+:root {
+    --cor-primaria: rgba(255 220 0 255);
+    --cor-secundaria:rgb(255 220 0);
+    --cor-terciaria:rgbA(0, 0, 0, .76);
+    --cor-cabecario: #3493ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(/img/halflife_alyx_12.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.hlx_countdown {
+    display: flex;
+    margin: 15%;
+    justify-content: center;
+}
+
+.hlx_countdown_box {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    border-radius: 20px;
+    border-bottom: 90px;
+}
+
+.hlx_countdown h2 {
+    font-family: "HL2";
+}
+
+.hlx_countdown h1, .hlx_countdown p {
+    font-family: "HL2-DIN";
+}
+
+#ready {
+    display: none;
+    opacity: 0;
+}
+
+.hlx_countdown h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.timebox {
+    display: flex;
+    gap: 90px;
+}
+
+.time {
+    text-align: center;
+    box-shadow: 0 0 10px, var(--cor-primaria);
+}
+
+.time h2 {
+    font-size: 5rem;
+    font-weight: 100;
+}
